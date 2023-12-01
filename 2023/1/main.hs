@@ -1,5 +1,4 @@
 module Main where
-import Data.Char
 import System.IO
 
 main = do
