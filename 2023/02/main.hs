@@ -35,6 +35,3 @@ maxVal str = maximum . map (\(x,y) -> if str == x  then y else 0)
 
 cubeset [] = []
 cubeset (x:xs:xxs) = (xs, read x :: Int):cubeset xxs
-
-
-
