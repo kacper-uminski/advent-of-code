@@ -1,6 +1,5 @@
 module Main where
 import System.IO
-import Data.Function (on)
 import Data.List (group, sort, sortBy)
 
 main = do
@@ -66,7 +65,4 @@ data HandType =
   FullHouse |
   FourOfAKind |
   FiveOfAKind
-  deriving (Eq, Ord, Show)
-  
-newtype Hand = Hand (HandType, [Int])
   deriving (Eq, Ord, Show)
